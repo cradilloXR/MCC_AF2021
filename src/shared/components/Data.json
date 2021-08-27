@@ -1,0 +1,72 @@
+{
+  "attributes": {
+    "namespace": "app.mdl"
+  },
+  "children": [
+    {
+      "attributes": {
+        "name": "MCC_Bucket",
+        "twx-entity-type": "Things",
+        "twx-entity-name": "MCC_Bucket"
+      },
+      "name": "twx-model",
+      "children": [
+        {
+          "attributes": {
+            "name": "Votage",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"MCC_Bucket\"].properties[\"Votage\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
+            "name": "Current",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"MCC_Bucket\"].properties[\"Current\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
+            "name": "Temperature",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"MCC_Bucket\"].properties[\"Temperature\"]"
+          },
+          "name": "twx-model-property"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "id": "vumark",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "ThingMark",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "template",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing Template",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "thing",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    }
+  ],
+  "name": "twx-app-mdl"
+}
