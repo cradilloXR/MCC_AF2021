@@ -30,11 +30,11 @@
                     "widget-name": "model-1",
                     "playstopped-expression": "playStopped();",
                     "is-widget-container": "true",
-                    "src": "Uploaded/MCC_mithun3_High_Low.pvz",
-                    "x": "0.18108929693698883",
-                    "y": "0.4925568103790283",
-                    "z": "-0.1453005075454712",
-                    "sequence": "Uploaded/l-Creo 3D - Figure 1.pvi"
+                    "src": "Uploaded/MCCAF10006171471-scii_High.pvz",
+                    "x": "-0.5081782937049866",
+                    "y": "0.10634980350732803",
+                    "z": "0.26308581233024597",
+                    "sequence": ""
                   },
                   "name": "twx-dt-model",
                   "children": [
@@ -908,7 +908,8 @@
                                                                     "twx-widget": "",
                                                                     "widget-id": "textInput-3",
                                                                     "widget-name": "textInput-3",
-                                                                    "placeholder": "Name"
+                                                                    "placeholder": "Name",
+                                                                    "label": "Input Label"
                                                                   },
                                                                   "name": "twx-text-input"
                                                                 }

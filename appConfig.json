@@ -38,6 +38,20 @@
           "showInMainMenu": true,
           "viewType": "ar",
           "title": "Layout_BottomControls"
+        },
+        {
+          "name": "MCCVAN",
+          "fileName": "MCCVAN",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "MCCVAN"
+        },
+        {
+          "name": "MCCAFDemo",
+          "fileName": "MCCAFDemo",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "MCCAFDemo"
         }
       ],
       "images": []
@@ -71,5 +85,5 @@
   "fontRuntimeDir": "../fonts",
   "fontDesigntimeDir": "../dist/fonts",
   "theme": "twx-light",
-  "version": "1.55.2047"
+  "version": "1.55.2060"
 }

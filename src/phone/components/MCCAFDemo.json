@@ -1,0 +1,380 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "ar"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DContainer-1",
+            "widget-name": "3D Container",
+            "is-widget-container": "true"
+          },
+          "name": "twx-dt-view",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-1",
+                    "widget-name": "model-1",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/MCCAF10006171471-scii_High.pvz",
+                    "x": "-0.5081782937049866",
+                    "y": "0.10634980350732803",
+                    "z": "0.26308581233024597"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "modelTarget-1",
+                    "detection-position": "{\"globalPosition\":{\"x\":-0.5109058124194479,\"y\":1.106061126525864,\"z\":3.902443577664974},\"axisAngle\":{\"x\":0.9999999999993915,\"y\":-0.0007493552448274542,\"z\":-0.0014726176160448602,\"w\":3.0944939885612937},\"cameraLocation\":{\"position\":{\"x\":0.5239859819412231,\"y\":0.920363187789917,\"z\":3.9486494064331055,\"valid\":true},\"orientation\":{\"x\":2.6984364986419678,\"y\":0.17067719995975494,\"z\":-0.08184986561536789},\"scale\":{\"x\":1,\"y\":1,\"z\":1},\"valid\":true},\"modelScale\":1,\"origModelSize\":{\"x\":1.1430000066757202,\"y\":2.454808235168457,\"z\":0.7620000243186951}}",
+                    "target-id": "5fab8515-c393-45d2-8f22-178bfaa1dc55",
+                    "widget-name": "modelTarget-1",
+                    "url": "_generated_/mtg/5fab8515-c393-45d2-8f22-178bfaa1dc55.png",
+                    "x": "-0.5081782937049866",
+                    "y": "0.10634980350732803",
+                    "z": "0.26308581233024597",
+                    "rx": "0",
+                    "model": "model-1"
+                  },
+                  "name": "twx-dt-target-model"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DGauge-1",
+                    "state-format-value": "text",
+                    "widget-name": "3DGauge-1",
+                    "text": "",
+                    "src": "Default/vu_info.svg",
+                    "fontsize": "40px",
+                    "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+                    "textx": "64",
+                    "texty": "94",
+                    "scale": "1.0000",
+                    "x": "-0.2832",
+                    "y": "2.0004",
+                    "z": "0.4628",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "canvasheight": "128",
+                    "canvaswidth": "128",
+                    "billboard": "false"
+                  },
+                  "name": "twx-dt-sensor"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DGauge-2",
+                    "state-format-value": "text",
+                    "widget-name": "3DGauge-2",
+                    "text": "",
+                    "src": "Default/vu_info.svg",
+                    "fontsize": "40px",
+                    "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+                    "textx": "64",
+                    "texty": "94",
+                    "scale": "1.0000",
+                    "x": "-0.2832",
+                    "y": "1.6286",
+                    "z": "0.4628",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "canvasheight": "128",
+                    "canvaswidth": "128",
+                    "billboard": "false"
+                  },
+                  "name": "twx-dt-sensor"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DGauge-3",
+                    "state-format-value": "text",
+                    "widget-name": "3DGauge-3",
+                    "text": "",
+                    "src": "Default/vu_info.svg",
+                    "fontsize": "40px",
+                    "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+                    "textx": "64",
+                    "texty": "94",
+                    "scale": "1.0000",
+                    "x": "-0.2832",
+                    "y": "1.3024",
+                    "z": "0.4628",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "canvasheight": "128",
+                    "canvaswidth": "128",
+                    "billboard": "false"
+                  },
+                  "name": "twx-dt-sensor"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DGauge-4",
+                    "state-format-value": "text",
+                    "widget-name": "3DGauge-4",
+                    "text": "",
+                    "src": "Default/vu_info.svg",
+                    "fontsize": "40px",
+                    "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+                    "textx": "64",
+                    "texty": "94",
+                    "scale": "1.0000",
+                    "x": "-0.2832",
+                    "y": "0.7970",
+                    "z": "0.4628",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "canvasheight": "128",
+                    "canvaswidth": "128",
+                    "billboard": "false"
+                  },
+                  "name": "twx-dt-sensor"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DGauge-5",
+                    "state-format-value": "text",
+                    "widget-name": "3DGauge-5",
+                    "text": "",
+                    "src": "Default/vu_info.svg",
+                    "fontsize": "40px",
+                    "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+                    "textx": "64",
+                    "texty": "94",
+                    "scale": "1.0000",
+                    "x": "0.2225",
+                    "y": "1.8274",
+                    "z": "0.4628",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "canvasheight": "128",
+                    "canvaswidth": "128",
+                    "billboard": "false"
+                  },
+                  "name": "twx-dt-sensor"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DGauge-6",
+                    "state-format-value": "text",
+                    "widget-name": "3DGauge-6",
+                    "text": "",
+                    "src": "Default/vu_info.svg",
+                    "fontsize": "40px",
+                    "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+                    "textx": "64",
+                    "texty": "94",
+                    "scale": "1.0000",
+                    "x": "0.2225",
+                    "y": "1.5611",
+                    "z": "0.4628",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "canvasheight": "128",
+                    "canvaswidth": "128",
+                    "billboard": "false"
+                  },
+                  "name": "twx-dt-sensor"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DGauge-7",
+                    "state-format-value": "text",
+                    "widget-name": "3DGauge-7",
+                    "text": "",
+                    "src": "Default/vu_info.svg",
+                    "fontsize": "40px",
+                    "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+                    "textx": "64",
+                    "texty": "94",
+                    "scale": "1.0000",
+                    "x": "0.2225",
+                    "y": "0.9920",
+                    "z": "0.4628",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "canvasheight": "128",
+                    "canvaswidth": "128",
+                    "billboard": "false"
+                  },
+                  "name": "twx-dt-sensor"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DGauge-8",
+                    "state-format-value": "text",
+                    "widget-name": "3DGauge-8",
+                    "text": "",
+                    "src": "Default/vu_info.svg",
+                    "fontsize": "40px",
+                    "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+                    "textx": "64",
+                    "texty": "94",
+                    "scale": "1.0000",
+                    "x": "0.2225",
+                    "y": "0.5209",
+                    "z": "0.4628",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "canvasheight": "128",
+                    "canvaswidth": "128",
+                    "billboard": "false"
+                  },
+                  "name": "twx-dt-sensor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "2DOverlay-1",
+            "widget-name": "2D Overlay",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "panel-1",
+                    "widget-name": "Top Panel",
+                    "is-widget-container": "true",
+                    "position": "top"
+                  },
+                  "name": "twx-overlay-container",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "2DOverlayBody-1",
+                    "widget-name": "2D Body",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-overlay-body",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "panel-2",
+                            "widget-name": "Left Panel",
+                            "is-widget-container": "true",
+                            "position": "left"
+                          },
+                          "name": "twx-overlay-container",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "panel-3",
+                            "widget-name": "Center Panel",
+                            "is-widget-container": "true",
+                            "position": "center"
+                          },
+                          "name": "twx-overlay-container",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "panel-4",
+                            "widget-name": "Right Panel",
+                            "is-widget-container": "true",
+                            "position": "right"
+                          },
+                          "name": "twx-overlay-container",
+                          "children": [
+                            {
+                              "name": "twx-container-content"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "panel-5",
+                    "widget-name": "Bottom Panel",
+                    "is-widget-container": "true",
+                    "position": "bottom"
+                  },
+                  "name": "twx-overlay-container",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}
