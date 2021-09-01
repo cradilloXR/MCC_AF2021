@@ -278,6 +278,54 @@
                     "billboard": "false"
                   },
                   "name": "twx-dt-sensor"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DImage-1",
+                    "widget-name": "3DImage-1",
+                    "src": "Uploaded/meshfrontSide.png",
+                    "scale": "2.0000",
+                    "x": "-0.0755",
+                    "y": "1.2379",
+                    "z": "1.5053",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DImage-2",
+                    "widget-name": "3DImage-2",
+                    "src": "Uploaded/meshfrontSide.png",
+                    "scale": "2.0000",
+                    "x": "1.0938",
+                    "y": "1.2412",
+                    "z": "0.6115",
+                    "rx": "0.00",
+                    "ry": "90.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DImage-3",
+                    "widget-name": "3DImage-3",
+                    "src": "Uploaded/meshfrontSide.png",
+                    "scale": "2.0000",
+                    "x": "-1.1701",
+                    "y": "1.2412",
+                    "z": "0.6115",
+                    "rx": "0.00",
+                    "ry": "90.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-image"
                 }
               ]
             }
