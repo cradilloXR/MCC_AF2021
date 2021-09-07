@@ -143,7 +143,7 @@
                     "texty": "94",
                     "scale": "1.0000",
                     "x": "0.2144",
-                    "y": "1.7640",
+                    "y": "1.7373",
                     "z": "0.3809",
                     "rx": "0.00",
                     "ry": "0.00",
@@ -396,7 +396,581 @@
                           "name": "twx-overlay-container",
                           "children": [
                             {
-                              "name": "twx-container-content"
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "unitInfoPopup",
+                                    "widget-name": "unitInfoPopup",
+                                    "is-widget-container": "true",
+                                    "visible": "true"
+                                  },
+                                  "name": "twx-popup",
+                                  "children": [
+                                    {
+                                      "name": "twx-container-content",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "gridLayout-1",
+                                            "widget-name": "gridLayout-1",
+                                            "is-widget-container": "true"
+                                          },
+                                          "name": "twx-gridlayout",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "row-1",
+                                                    "widget-name": "row-1",
+                                                    "is-widget-container": "true"
+                                                  },
+                                                  "name": "twx-row",
+                                                  "children": [
+                                                    {
+                                                      "name": "twx-container-content",
+                                                      "children": [
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-1",
+                                                            "widget-name": "column-1",
+                                                            "is-widget-container": "true",
+                                                            "flexdirection": "row",
+                                                            "alignment": "center",
+                                                            "fixedcolsize": "20%",
+                                                            "wrap": "no-wrap",
+                                                            "padding": "10px"
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "imageButtonStatus",
+                                                                    "widget-name": "imageButtonStatus",
+                                                                    "imgsrc": "Uploaded/white_dot.svg",
+                                                                    "width": "60px"
+                                                                  },
+                                                                  "name": "twx-image2"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-2",
+                                                            "widget-name": "column-2",
+                                                            "is-widget-container": "true",
+                                                            "justification": "center",
+                                                            "alignment": "center",
+                                                            "wrap": "no-wrap"
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "gridLayout-2",
+                                                                    "widget-name": "gridLayout-2",
+                                                                    "is-widget-container": "true"
+                                                                  },
+                                                                  "name": "twx-gridlayout",
+                                                                  "children": [
+                                                                    {
+                                                                      "name": "twx-container-content",
+                                                                      "children": [
+                                                                        {
+                                                                          "attributes": {
+                                                                            "twx-widget": "",
+                                                                            "widget-id": "row-2",
+                                                                            "widget-name": "row-2",
+                                                                            "is-widget-container": "true"
+                                                                          },
+                                                                          "name": "twx-row",
+                                                                          "children": [
+                                                                            {
+                                                                              "name": "twx-container-content",
+                                                                              "children": [
+                                                                                {
+                                                                                  "attributes": {
+                                                                                    "twx-widget": "",
+                                                                                    "widget-id": "column-3",
+                                                                                    "widget-name": "column-3",
+                                                                                    "is-widget-container": "true"
+                                                                                  },
+                                                                                  "name": "twx-col",
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "name": "twx-container-content",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "attributes": {
+                                                                                            "twx-widget": "",
+                                                                                            "widget-id": "label-1",
+                                                                                            "state-format-value": "text",
+                                                                                            "widget-name": "label-1",
+                                                                                            "text": "Label"
+                                                                                          },
+                                                                                          "name": "twx-label"
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "attributes": {
+                                                                            "twx-widget": "",
+                                                                            "widget-id": "row-3",
+                                                                            "widget-name": "row-3",
+                                                                            "is-widget-container": "true"
+                                                                          },
+                                                                          "name": "twx-row",
+                                                                          "children": [
+                                                                            {
+                                                                              "name": "twx-container-content",
+                                                                              "children": [
+                                                                                {
+                                                                                  "attributes": {
+                                                                                    "twx-widget": "",
+                                                                                    "widget-id": "column-4",
+                                                                                    "widget-name": "column-4",
+                                                                                    "is-widget-container": "true"
+                                                                                  },
+                                                                                  "name": "twx-col",
+                                                                                  "children": [
+                                                                                    {
+                                                                                      "name": "twx-container-content",
+                                                                                      "children": [
+                                                                                        {
+                                                                                          "attributes": {
+                                                                                            "twx-widget": "",
+                                                                                            "widget-id": "label-2",
+                                                                                            "state-format-value": "text",
+                                                                                            "widget-name": "label-2",
+                                                                                            "text": "Label"
+                                                                                          },
+                                                                                          "name": "twx-label"
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-5",
+                                                            "widget-name": "column-5",
+                                                            "is-widget-container": "true",
+                                                            "flexdirection": "row",
+                                                            "justification": "flex-end",
+                                                            "alignment": "flex-start",
+                                                            "fixedcolsize": "20%",
+                                                            "padding": "8px"
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "buttonInfoClose",
+                                                                    "widget-name": "buttonInfoClose",
+                                                                    "text": "",
+                                                                    "class": "ion-close-circled closeButton"
+                                                                  },
+                                                                  "name": "twx-button"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "row-4",
+                                                    "widget-name": "row-4",
+                                                    "is-widget-container": "true"
+                                                  },
+                                                  "name": "twx-row",
+                                                  "children": [
+                                                    {
+                                                      "name": "twx-container-content",
+                                                      "children": [
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-6",
+                                                            "widget-name": "column-6",
+                                                            "is-widget-container": "true"
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "gauge-1",
+                                                                    "state-format-value": "value",
+                                                                    "human-friendly-decimal": "1",
+                                                                    "widget-name": "gaugeCurrent",
+                                                                    "max": "10",
+                                                                    "title": "Current: (Amps)",
+                                                                    "titlefontcolor": "rgba(158, 156, 144, 1)",
+                                                                    "valuefontcolor": "rgba(158, 156, 144, 1)",
+                                                                    "valuecolor": "rgba(44, 189, 186, 1)"
+                                                                  },
+                                                                  "name": "twx-gauge"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-8",
+                                                            "widget-name": "column-8",
+                                                            "is-widget-container": "true"
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "gauge-2",
+                                                                    "enable-state-formatting": "true",
+                                                                    "state-format-value": "value",
+                                                                    "human-friendly-decimal": "1",
+                                                                    "widget-name": "gaugeVoltage",
+                                                                    "min": "380",
+                                                                    "max": "500",
+                                                                    "title": "Voltage: (Volts)",
+                                                                    "titlefontcolor": "rgba(158, 156, 144, 1)",
+                                                                    "valuefontcolor": "rgba(158, 156, 144, 1)",
+                                                                    "valuecolor": "rgba(44, 189, 186, 1)"
+                                                                  },
+                                                                  "name": "twx-gauge"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-9",
+                                                            "widget-name": "column-9",
+                                                            "is-widget-container": "true"
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "gauge-3",
+                                                                    "enable-state-formatting": "true",
+                                                                    "state-format-value": "value",
+                                                                    "human-friendly-decimal": "1",
+                                                                    "widget-name": "gaugePower",
+                                                                    "min": "5",
+                                                                    "max": "15",
+                                                                    "title": "Power: (kw)",
+                                                                    "titlefontcolor": "rgba(158, 156, 144, 1)",
+                                                                    "valuefontcolor": "rgba(158, 156, 144, 1)",
+                                                                    "valuecolor": "rgba(44, 189, 186, 1)"
+                                                                  },
+                                                                  "name": "twx-gauge"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-10",
+                                                            "widget-name": "column-10",
+                                                            "is-widget-container": "true"
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "gauge-4",
+                                                                    "enable-state-formatting": "true",
+                                                                    "state-format-value": "value",
+                                                                    "human-friendly-decimal": "1",
+                                                                    "widget-name": "gaugeFrequency",
+                                                                    "min": "-100",
+                                                                    "title": "Freq: (Hertz)",
+                                                                    "titlefontcolor": "rgba(158, 156, 144, 1)",
+                                                                    "valuefontcolor": "rgba(158, 156, 144, 1)",
+                                                                    "valuecolor": "rgba(44, 189, 186, 1)"
+                                                                  },
+                                                                  "name": "twx-gauge"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "row-5",
+                                                    "widget-name": "row-5",
+                                                    "is-widget-container": "true"
+                                                  },
+                                                  "name": "twx-row",
+                                                  "children": [
+                                                    {
+                                                      "name": "twx-container-content",
+                                                      "children": [
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-7",
+                                                            "widget-name": "column-7",
+                                                            "is-widget-container": "true",
+                                                            "flexdirection": "row",
+                                                            "justification": "center",
+                                                            "alignment": "center"
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "labelPowerOffSTS",
+                                                                    "state-format-value": "text",
+                                                                    "widget-name": "labelPowerOffSTS",
+                                                                    "text": "(none)",
+                                                                    "class": "infoPopupLabel2",
+                                                                    "padding": "10px 10px 10px 10px"
+                                                                  },
+                                                                  "name": "twx-label"
+                                                                },
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "labelFault",
+                                                                    "state-format-value": "text",
+                                                                    "widget-name": "labelFault",
+                                                                    "text": "Fault Code :",
+                                                                    "class": "infoPopupLabel",
+                                                                    "padding": "10px 0px 10px 30px",
+                                                                    "visible": "false"
+                                                                  },
+                                                                  "name": "twx-label"
+                                                                },
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "labelFaultValue",
+                                                                    "state-format-value": "text",
+                                                                    "widget-name": "labelFaultValue",
+                                                                    "text": "(none)",
+                                                                    "class": "infoPopupLabel",
+                                                                    "padding": "10px 10px 10px 10px"
+                                                                  },
+                                                                  "name": "twx-label"
+                                                                },
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "hyperlinkFaultCodes",
+                                                                    "widget-name": "hyperlinkFaultCodes",
+                                                                    "text": "Alarms Document",
+                                                                    "url": "https://",
+                                                                    "margin": "10px 10px 10px 10px"
+                                                                  },
+                                                                  "name": "twx-hyperlink"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "row-6",
+                                                    "widget-name": "row-6",
+                                                    "is-widget-container": "true"
+                                                  },
+                                                  "name": "twx-row",
+                                                  "children": [
+                                                    {
+                                                      "name": "twx-container-content",
+                                                      "children": [
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-11",
+                                                            "widget-name": "column-11",
+                                                            "is-widget-container": "true",
+                                                            "flexdirection": "row",
+                                                            "justification": "space-between",
+                                                            "alignment": "center",
+                                                            "fixedcolsize": "67%",
+                                                            "padding": "10px"
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "toggleLanguage",
+                                                                    "background-color": "transparent",
+                                                                    "background-color-pressed": "transparent",
+                                                                    "widget-name": "toggleLanguage",
+                                                                    "click-expression": "app.UpdateLanguageSettings();",
+                                                                    "src": "Uploaded/american_english.png",
+                                                                    "srcnotpressed": "Uploaded/spanish.png",
+                                                                    "width": "",
+                                                                    "height": "36px"
+                                                                  },
+                                                                  "name": "twx-toggle-button"
+                                                                },
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "hyperlinkManual",
+                                                                    "widget-name": "hyperlinkManual",
+                                                                    "text": "Manual",
+                                                                    "url": "https://"
+                                                                  },
+                                                                  "name": "twx-hyperlink"
+                                                                },
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "hyperlinkSchematic",
+                                                                    "widget-name": "hyperlinkSchematic",
+                                                                    "text": "Schematic Document"
+                                                                  },
+                                                                  "name": "twx-hyperlink"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-13",
+                                                            "widget-name": "column-13",
+                                                            "is-widget-container": "true",
+                                                            "flexdirection": "row",
+                                                            "justification": "flex-end",
+                                                            "alignment": "center",
+                                                            "fixedcolsize": "33%",
+                                                            "padding": "0px 24px 0px 0px"
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "spinner-1",
+                                                                    "widget-name": "spinner-1"
+                                                                  },
+                                                                  "name": "twx-spinner"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "row-7",
+                                                    "widget-name": "row-7",
+                                                    "is-widget-container": "true"
+                                                  },
+                                                  "name": "twx-row",
+                                                  "children": [
+                                                    {
+                                                      "name": "twx-container-content"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
                             }
                           ]
                         },
