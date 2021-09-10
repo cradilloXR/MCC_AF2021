@@ -367,3 +367,479 @@ $RA_ERROR: #df3704;
     height: 15vmin;
   }
 }
+
+/////////////////////////////////////////////////////////////////// CSS ALAN EDIT
+/*
+   Add additional application styles or override styles provided by the selected theme or widgets.
+   You can include SASS syntax, as this file is built to a css file using a SASS processor.
+
+   Available Variables:
+
+   Variable Name      Description
+   ----------------------------------------------------
+   $resources         References the directory where resources reside (images, etc.), this directory may be different
+                      between the design time and the runtime directory structure.
+
+                      Example: background-image: url(#{$resources}/Uploaded/image.png)
+
+   $font-path        References the relative directory where fonts are stored.
+*/
+
+//////////////////////////////////////////////////////////////////////////////////
+// Define PTCRaleway font - known to be a good font for AR experiences
+//////////////////////////////////////////////////////////////////////////////////
+@font-face { 
+	font-family: 'PTCRaleway'; 
+  	src: local('PTCRaleway'),      
+      	 url('#{$resources}/Uploaded/fonts/PTCRaleway.ttf') format('truetype'),
+		 url('#{$resources}/Uploaded/fonts/PTCRaleway-Bold.ttf') format('truetype'),   
+		 url('#{$resources}/Uploaded/fonts/PTCRaleway-BoldItalic.ttf') format('truetype'),      
+		 url('#{$resources}/Uploaded/fonts/PTCRaleway-Italic.ttf') format('truetype');      
+}
+
+@font-face { 
+	font-family: 'PTCRaleway Black'; 
+  	src: local('PTCRaleway Black'),      
+		 local('PTCRaleway Black'),      
+      	 url('#{$resources}/Uploaded/fonts/PTCRaleway-Black.ttf') format('truetype'),  
+      	 url('#{$resources}/Uploaded/fonts/PTCRaleway-BlackItalic.ttf') format('truetype');      
+}
+
+@font-face { 
+	font-family: 'PTCRaleway ExtraBold'; 
+  	src: local('PTCRaleway ExtraBold'),            
+		 url('#{$resources}/Uploaded/fonts/PTCRaleway-ExtraBold.ttf') format('truetype'),      
+		 url('#{$resources}/Uploaded/fonts/PTCRaleway-ExtraBoldItalic.ttf') format('truetype');      
+}
+
+@font-face { 
+	font-family: 'PTCRaleway ExtraLight'; 
+  	src: local('PTCRaleway ExtraLight'),                    
+		 url('#{$resources}/Uploaded/fonts/PTCRaleway-ExtraLight.ttf') format('truetype'),      
+		 url('#{$resources}/Uploaded/fonts/PTCRaleway-ExtraLightItalic.ttf') format('truetype');      
+}
+
+@font-face { 
+	font-family: 'PTCRaleway Medium'; 
+  	src: local('PTCRaleway Medium'),      
+		 url('#{$resources}/Uploaded/fonts/PTCRaleway-Medium.ttf') format('truetype'),      
+		 url('#{$resources}/Uploaded/fonts/PTCRaleway-MediumItalic.ttf') format('truetype');      
+}
+
+@font-face { 
+	font-family: 'PTCRaleway SemiBold'; 
+  	src: local('PTCRaleway SemiBold'),                   
+		 url('#{$resources}/Uploaded/fonts/PTCRaleway-SemiBold.ttf') format('truetype'),            
+		 url('#{$resources}/Uploaded/fonts/PTCRaleway-SemiBoldItalic.ttf') format('truetype');      
+}
+
+@font-face { 
+	font-family: 'PTCRaleway Thin'; 
+  	src: local('PTCRaleway Thin'),            
+		 url('#{$resources}/Uploaded/fonts/PTCRaleway-Thin.ttf') format('truetype'),       
+		 url('#{$resources}/Uploaded/fonts/PTCRaleway-ThinItalic.ttf') format('truetype');      
+}
+
+
+.PTCRaleway {
+	font-size: 25px;
+	font-family: 'PTCRaleway';
+	font-weight: normal;	//normal, bold
+	font-style: normal;		//normal, italic    
+}
+
+.PTCRalewayBlack {
+	font-size: 25px;
+	font-family: 'PTCRaleway Black';
+	font-weight: normal;	//normal 
+	font-style: normal;		//normal, italic   
+}
+
+.PTCRalewayExtraBold {
+	font-size: 25px;
+	font-family: 'PTCRaleway ExtraBold';
+	font-weight: normal;	//normal 
+	font-style: normal;		//normal, italic   
+}
+
+.PTCRalewayExtraLight {
+	font-size: 25px;
+	font-family: 'PTCRaleway ExtraLight';
+	font-weight: normal;	//normal 
+	font-style: normal;		//normal, italic   
+}
+
+.PTCRalewayMedium {
+	font-size: 25px;
+	font-family: 'PTCRaleway Medium';
+	font-weight: normal;	//normal 
+	font-style: normal;		//normal, italic   
+}
+
+.PTCRalewaySemiBold {
+	font-size: 25px;
+	font-family: 'PTCRaleway SemiBold';
+	font-weight: normal;	//normal 
+	font-style: normal;		//normal, italic  
+}
+
+.PTCRalewayThin {
+	font-size: 25px;
+	font-family: 'PTCRaleway Thin';
+	font-weight: normal;	//normal 
+	font-style: normal;		//normal, italic  
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+// Define Purina CSS style colors
+// Unable to fine definitive Purina style guide online. Some of these coming from
+// what I was able to find (red), others from Rockwell (Tyler) initial searching.
+// Unclear what colors besides red and gray are valid colors in Purina style.
+//////////////////////////////////////////////////////////////////////////////////
+
+$PurinaRed: rgba(237, 34, 50, 1); // From https://www.codeofcolors.com/purina-colors.html
+$PurinaRedTranslucent: rgba(237, 34, 50, 0.5);
+$PurinaGreen: rgba(187, 35, 50, 1);  //UPDATE
+$PurinaGold: rgba(187, 35, 50, 1); // //UPDATE Warning Color
+$PurinaDarkgrey: rgba(58, 53, 50, 1);
+$PurinaMediumgrey: rgba(158, 156, 144, 1);
+$PurinaBeige: rgba(245, 241, 230, 1);
+$PurinaLightgrey: rgba(255, 255, 255, 1);
+$PurinaBlue: rgba(44, 189, 186, 1);
+
+.popup-main{
+  background: $PurinaLightgrey;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.toppannel{
+  height: 50px;
+}
+
+.popupHeaderRow {
+  background: Lightgray;
+  border-radius: 18px 18px 0px 0px;
+  border-bottom: 1px solid black;
+}
+
+.popupFooterRow {
+  background: Lightgray;
+  border-radius: 0px 0px 18px 18px;
+  border-top: 1px solid black;
+}
+
+.sceneTitle {
+  color: white;
+  font-family: 'PTCRaleway Medium';
+  font-size: 30px;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.infoPopupTitle {
+  color: $PurinaDarkgrey;
+  font-family: 'PTCRaleway Medium';
+  font-size: 30px;
+  text-align: center;
+//  height: 48px;
+}
+
+.infoPopupLabel {
+  color: $PurinaDarkgrey;
+  font-family: 'PTCRaleway Medium';
+  font-size: 20px;
+  text-align: center;
+//  height: 36px;
+}
+
+.infoPopupLabel2 {
+  color: $PurinaDarkgrey;
+  font-family: 'PTCRaleway Thin';
+  font-size: 20px;
+  text-align: center;
+  height: 36px;
+}
+
+
+////////////////////////////
+// CSS added by Peter S.
+// March 2020
+////////////////////////////
+
+.closeButton {
+  background-color: transparent;
+  font-size: 40px;
+  color: black ;
+}
+
+.whiteLabel {
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  border-color:black;
+  border-width: thin;
+  border-style: solid;
+}
+
+.greenLabel {
+  height: 100% !important;
+  width: 100% !important;
+  background-color: #66cc33;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.yellowLabel {
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  border-color:black;
+  border-width: thin;
+  border-style: solid
+}
+
+.brownLabel {
+  background-color: #8b4513;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.redLabel {
+  background-color: red;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.title-row {
+  height: 50px !important;
+  border-bottom: 2px solid black;
+  background: rgba(0,0,0,.25) !important;
+  overflow: hidden;
+}
+
+.chalkHidden {
+//  background-image: url('#{$resources}/Uploaded/MCC_Image1.jpg');
+  visibility: hidden;
+}
+
+.chalkVisible {
+//  background-image: url('#{$resources}/Uploaded/MCC_Image1.jpg');
+  visibility: visible;
+}
+
+// Added for animating the popup as a slide out technique
+.twx-popup-container {
+  //controls all pop ups
+transition: -webkit-transform .5s  ease-out;
+transition: transform .5s  ease-out;
+transition: transform .5s ease-out,-webkit-transform .5s  ease-out;
+-webkit-transform: translateX(0vw) translateY(50vh);
+transform: translateX(0vw) translateY(50vh) ;
+}
+.twx-popup-container.ng-hide {
+  //controls all pop ups
+display: block;
+-webkit-transform: translateX(100vw) translateY(50vh) ;
+transform: translateX(100vw) translateY(50vh) ;
+}
+
+
+
+ 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Select example - showing how to manipulate properties for different parts of the select widget (label, selected item, list of items)
+// No longer used in this AR experience, but was used when MCC selection done via select-widget rather than slide out ControlPanel
+// Leaving in just in case useful in the future.
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.mySelect {
+  padding:12px;
+  margin-top:8px;
+  line-height:1;
+  border-radius:5px;
+  background-color:$PurinaRed;
+  -webkit-appearance:none;
+  box-shadow:inset 0 0 10px 0 rgba(0,0,0,0.6);
+  outline:none;
+}
+
+// the .input-label class within this mySelect class affects the label of the select widget (alternately can be referenced as the <div> element within the .mySelect class)
+.mySelect .input-label{
+  font-size: 16px;
+  font-style: bold;
+  color: white;
+}
+
+
+// the <select> element within mySelect class is the selected value from the list of items
+.mySelect select{
+  font-size:16px;
+  color: $PurinaRed;
+  background-color: white;
+}
+
+// the .item class (alternately the <option> element) within this .mySelect class applies to the list of options for the drop down list
+.mySelect .item{
+  font-size:16px;
+  color: black;
+}
+
+
+//////////////////////////////////////////////
+// Styles added for control panel slide out
+//////////////////////////////////////////////
+
+.SelectedItem {
+
+	background: $PurinaRedTranslucent !important;
+  
+}
+
+.MenuButton1 {
+	background-image: url('#{$resources}/Uploaded/MCC_Image1.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: transparent;
+	background-size: 60%;
+	border: none;
+	height: 40px;
+	width: 40px;
+}
+
+.MenuButton2 {
+	background-image: url('#{$resources}/Uploaded/MCC_Image2.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: transparent;
+	background-size: 60%;
+	border: none;
+	height: 40px;
+	width: 40px;
+}
+
+.MenuButton3 {
+	background-image: url('#{$resources}/Uploaded/MCC_Image1.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: transparent;
+	background-size: 60%;
+	border: none;
+	height: 40px;
+	width: 40px;
+}
+
+.MenuButton4 {
+	background-image: url('#{$resources}/Uploaded/MCC_Image2.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: transparent;
+	background-size: 60%;
+	border: none;
+	height: 40px;
+	width: 40px;
+}
+
+
+.OpenImage {
+	position: fixed;
+	top: 40vh;
+	right: 0;
+}
+
+.CloseImage {
+	position: fixed;
+	top: 40vh;
+	right: 330px;
+}
+
+.ControlPanelCard {
+  background: rgba(0, 0, 0, 0.0) !important; 
+//  border-botton: 0px none transparent !important;
+//  height: 100%;
+}
+
+.ControlPanel {
+	position: fixed;
+	right: 0;
+    //top:32.5vh;
+    top:35.5vh;
+	bottom: 87px;
+	width: 330px;
+  	overflow-x: hidden !important; /* Hide horizontal scrollbar */
+  	overflow-y: auto !important; /* Add vertical scrollbar */  
+	background: rgba(0, 0, 0, 0.5) !important;  
+	//border-top-left-radius: 12px;
+	//border-bottom-left-radius: 12px;
+	//border-top: solid 5px;
+	//border-left: solid 5px;
+	//border-bottom: solid 5px;
+	border-right: solid 15px;
+	border-color: $PurinaRed !important;
+    border-radius: 8px 0px 0px 8px;
+	color: white;
+	//font-family: Arial;
+	//font-size: 16px;
+	display: none;
+	animation-name: stretchLeft;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	transform-origin: 100% 0%; 
+}
+
+@keyframes stretchLeft {
+  0% {
+    transform: scaleX(0.3); }
+  40% {
+    transform: scaleX(1.02); }
+  60% {
+    transform: scaleX(0.98); }
+  80% {
+    transform: scaleX(1.01); }
+  100% {
+    transform: scaleX(0.98); }
+  80% {
+    transform: scaleX(1.01); }
+  100% {
+    transform: scaleX(1); } 
+}
+
+
+.RedIndicator {
+  background-color: Red;
+  color:Red;
+  --text-stroke-color: Red;/*csslint ignore*/
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+} 
+
+.GreenIndicator {
+  background-color: Green;
+  color:Green;
+  --text-stroke-color: Green;/*csslint ignore*/
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+} 
+
+.WhiteIndicator {
+  background-color: White;
+  color: White;
+  --text-stroke-color: White;/*csslint ignore*/
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+} 
+
+
+.WARNING {
+  background-color: White;
+  color: Black;
+  font-size: 100px;
+  --text-stroke-color: White;/*csslint ignore*/
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+} 

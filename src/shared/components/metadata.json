@@ -22,7 +22,7 @@
       ],
       "tags": [],
       "icon": "",
-      "viewName": "Splash",
+      "viewName": "MCCAFDemo",
       "url-template": "index.html?expId=1",
       "entryPoint": "index.html?expId=1",
       "thumbnail": "",
@@ -2934,7 +2934,7 @@
       }
     },
     {
-      "timestamp": "2021-09-07T17:10:17.522Z",
+      "timestamp": "2021-09-10T21:43:49.947Z",
       "action": "LATEST_SAVE",
       "usage": {
         "twx-view": 6,

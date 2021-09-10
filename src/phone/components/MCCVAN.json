@@ -428,7 +428,8 @@
                                                     "twx-widget": "",
                                                     "widget-id": "row-1",
                                                     "widget-name": "row-1",
-                                                    "is-widget-container": "true"
+                                                    "is-widget-container": "true",
+                                                    "rowclass": "popupHeaderRow"
                                                   },
                                                   "name": "twx-row",
                                                   "children": [
@@ -853,7 +854,8 @@
                                                     "twx-widget": "",
                                                     "widget-id": "row-6",
                                                     "widget-name": "row-6",
-                                                    "is-widget-container": "true"
+                                                    "is-widget-container": "true",
+                                                    "rowclass": "popupFooterRow"
                                                   },
                                                   "name": "twx-row",
                                                   "children": [
