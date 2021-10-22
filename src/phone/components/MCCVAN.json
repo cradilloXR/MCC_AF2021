@@ -77,7 +77,23 @@
                     "canvaswidth": "128",
                     "billboard": "false"
                   },
-                  "name": "twx-dt-sensor"
+                  "name": "twx-dt-sensor",
+                  "children": [
+                    {
+                      "attributes": {
+                        "eventbind-id": "eb-1634923490504",
+                        "source-type": "widget",
+                        "source-label": "3D Gauge",
+                        "source-name": "3DGauge-1",
+                        "source-event": "click",
+                        "handler-type": "ui",
+                        "handler-name": "unitInfoPopup",
+                        "handler-service": "showpopup",
+                        "handler-path": "app.view[\"MCCVAN\"].wdg[\"unitInfoPopup\"].svc.showpopup"
+                      },
+                      "name": "twx-eventbind"
+                    }
+                  ]
                 },
                 {
                   "attributes": {
@@ -611,7 +627,23 @@
                                                                     "text": "",
                                                                     "class": "ion-close-circled closeButton"
                                                                   },
-                                                                  "name": "twx-button"
+                                                                  "name": "twx-button",
+                                                                  "children": [
+                                                                    {
+                                                                      "attributes": {
+                                                                        "eventbind-id": "eb-1634761671773",
+                                                                        "source-type": "widget",
+                                                                        "source-label": "Button",
+                                                                        "source-name": "buttonInfoClose",
+                                                                        "source-event": "click",
+                                                                        "handler-type": "ui",
+                                                                        "handler-name": "unitInfoPopup",
+                                                                        "handler-service": "hidepopup",
+                                                                        "handler-path": "app.view[\"MCCVAN\"].wdg[\"unitInfoPopup\"].svc.hidepopup"
+                                                                      },
+                                                                      "name": "twx-eventbind"
+                                                                    }
+                                                                  ]
                                                                 }
                                                               ]
                                                             }
@@ -652,7 +684,9 @@
                                                                     "state-format-value": "value",
                                                                     "human-friendly-decimal": "1",
                                                                     "widget-name": "gaugeCurrent",
+                                                                    "min": "5",
                                                                     "max": "10",
+                                                                    "value": "",
                                                                     "title": "Current: (Amps)",
                                                                     "titlefontcolor": "rgba(158, 156, 144, 1)",
                                                                     "valuefontcolor": "rgba(158, 156, 144, 1)",
@@ -686,6 +720,7 @@
                                                                     "widget-name": "gaugeVoltage",
                                                                     "min": "380",
                                                                     "max": "500",
+                                                                    "value": "",
                                                                     "title": "Voltage: (Volts)",
                                                                     "titlefontcolor": "rgba(158, 156, 144, 1)",
                                                                     "valuefontcolor": "rgba(158, 156, 144, 1)",
@@ -719,6 +754,7 @@
                                                                     "widget-name": "gaugePower",
                                                                     "min": "5",
                                                                     "max": "15",
+                                                                    "value": "",
                                                                     "title": "Power: (kw)",
                                                                     "titlefontcolor": "rgba(158, 156, 144, 1)",
                                                                     "valuefontcolor": "rgba(158, 156, 144, 1)",
@@ -751,6 +787,7 @@
                                                                     "human-friendly-decimal": "1",
                                                                     "widget-name": "gaugeFrequency",
                                                                     "min": "-100",
+                                                                    "value": "",
                                                                     "title": "Freq: (Hertz)",
                                                                     "titlefontcolor": "rgba(158, 156, 144, 1)",
                                                                     "valuefontcolor": "rgba(158, 156, 144, 1)",
