@@ -29,8 +29,13 @@
                     "widget-name": "model-1",
                     "is-widget-container": "true",
                     "src": "Uploaded/MCCDEMOVAN10004108347-scii_High.pvz",
-                    "x": "-0.509739875793457",
-                    "z": "0.213436059653759"
+                    "scale": "1.0000",
+                    "x": "-0.5097",
+                    "y": "0.0000",
+                    "z": "0.2134",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
                   },
                   "name": "twx-dt-model",
                   "children": [
@@ -47,8 +52,8 @@
                     "target-id": "1b7b546b-9691-4b78-8729-2cd613669835",
                     "widget-name": "modelTarget-1",
                     "url": "_generated_/mtg/1b7b546b-9691-4b78-8729-2cd613669835.png",
-                    "x": "-0.509739875793457",
-                    "z": "0.2134360671043396",
+                    "x": "-0.5097000002861023",
+                    "z": "0.2134000062942505",
                     "rx": "0",
                     "model": "model-1"
                   },
