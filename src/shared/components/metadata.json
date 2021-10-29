@@ -2934,7 +2934,7 @@
       }
     },
     {
-      "timestamp": "2021-10-29T20:45:32.282Z",
+      "timestamp": "2021-10-29T22:55:43.613Z",
       "action": "LATEST_SAVE",
       "usage": {
         "twx-view": 6,
@@ -2947,7 +2947,7 @@
         "twx-dt-view": 4,
         "twx-dt-model": 5,
         "twx-dt-target-spatial": 2,
-        "twx-dt-image": 12,
+        "twx-dt-image": 14,
         "twx-tml-text": 2,
         "twx-dt-label": 4,
         "twx-overlay": 4,

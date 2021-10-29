@@ -347,6 +347,23 @@
                     "rz": "0.00"
                   },
                   "name": "twx-dt-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DImage-4",
+                    "widget-name": "3DImage-4",
+                    "src": "Uploaded/Arc FLash.png",
+                    "scale": "1.0000",
+                    "x": "1.3000",
+                    "y": "1.5000",
+                    "z": "1.5000",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image"
                 }
               ]
             }
