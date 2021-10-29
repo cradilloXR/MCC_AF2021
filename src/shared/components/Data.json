@@ -66,16 +66,6 @@
         "value": ""
       },
       "name": "twx-app-param"
-    },
-    {
-      "attributes": {
-        "id": "RPM",
-        "isbound": "false",
-        "isdeletable": "true",
-        "name": "RPM",
-        "value": ""
-      },
-      "name": "twx-app-param"
     }
   ],
   "name": "twx-app-mdl"

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   x="0"
+   y="0"
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   id="svg7"
+   sodipodi:docname="vu_info_white.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="6.5"
+     inkscape:cx="33.615385"
+     inkscape:cy="64.076923"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="base" />
+  <g
+     id="base"
+     opacity="0.90">
+    <path
+       class="base"
+       d="M64 0C99.3 0 128 28.6 128 64 128 99.4 99.3 128 64 128 28.7 128 0 99.4 0 64 0 28.6 28.7 0 64 0z"
+       fill="#000000"
+       id="Color_Fill_16_copy_20"
+       style="fill:#ffffff;fill-opacity:1" />
+  </g>
+  <g
+     id="g5">
+    <path
+       class="main"
+       d="M64 9C77.2 9 88 19.7 88 33 88 46.2 77.2 57 64 57 50.7 57 40 46.2 40 33 40 19.7 50.7 9 64 9L64 9zM68 23C64.8 23.9 61.3 24.6 58 25 58 25 58 26.9 58 26.9 60.7 27.3 61 27.5 61 31.2 61 31.2 61 42.3 61 42.3 61 46.2 60.2 46.4 57 46.8 57 46.8 57 49 57 49L71.9 49C71.9 49 71.9 46.8 71.9 46.8 68.6 46.4 68 46.1 68 42.3L68 23zM64 13C61.8 13 59.9 14.7 59.9 17 59.9 19.1 61.8 21 63.9 21 66.2 21 68 19.1 68 17 68 14.7 66.2 13 64 13z"
+       fill="#FFFFFF"
+       id="i" />
+  </g>
+</svg>
