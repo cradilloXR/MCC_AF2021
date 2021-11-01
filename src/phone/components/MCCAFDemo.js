@@ -104,7 +104,6 @@ $interval(function() {
 },1000);
 
 //Show/Hide Arc FLash Warning
-//3DImage-4
 $scope.arcFlash = function() {
   if ($scope.view.wdg['3DImage-4']['visible'] == true) {
     $scope.view.wdg['3DImage-1']['visible'] = false;
@@ -117,4 +116,8 @@ $scope.arcFlash = function() {
     $scope.view.wdg['3DImage-3']['visible'] = true;
     $scope.view.wdg['3DImage-4']['visible'] = true;
   }
+}
+
+$scope.animation = function () {
+ $scope.app.fn.triggerWidgetService('model-2','playAll') 
 }

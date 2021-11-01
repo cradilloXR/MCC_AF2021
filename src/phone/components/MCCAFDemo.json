@@ -52,10 +52,12 @@
                     "target-id": "5fab8515-c393-45d2-8f22-178bfaa1dc55",
                     "widget-name": "modelTarget-1",
                     "url": "",
-                    "x": "-0.5081999897956848",
-                    "y": "0.1062999963760376",
-                    "z": "0.2721000015735626",
-                    "rx": "0",
+                    "x": "-0.0000",
+                    "y": "-0.0000",
+                    "z": "0.0090",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
                     "model": "model-1"
                   },
                   "name": "twx-dt-target-model"
@@ -983,6 +985,16 @@
                             "widget-name": "button-1",
                             "click-expression": "arcFlash();",
                             "text": "Arc Flash"
+                          },
+                          "name": "twx-button"
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "button-2",
+                            "widget-name": "button-2",
+                            "click-expression": "animation();",
+                            "text": "Bucket Removal"
                           },
                           "name": "twx-button"
                         }
