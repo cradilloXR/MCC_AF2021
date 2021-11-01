@@ -107,14 +107,14 @@ $interval(function() {
 //3DImage-4
 $scope.arcFlash = function() {
   if ($scope.view.wdg['3DImage-4']['visible'] == true) {
-    $scope.view.wdg['3DImage-1']['visible'] = true;
-    $scope.view.wdg['3DImage-2']['visible'] = true;
-    $scope.view.wdg['3DImage-3']['visible'] = true;
-    $scope.view.wdg['3DImage-4']['visible'] = false;
-  } else {
     $scope.view.wdg['3DImage-1']['visible'] = false;
     $scope.view.wdg['3DImage-2']['visible'] = false;
     $scope.view.wdg['3DImage-3']['visible'] = false;
+    $scope.view.wdg['3DImage-4']['visible'] = false;
+  } else {
+    $scope.view.wdg['3DImage-1']['visible'] = true;
+    $scope.view.wdg['3DImage-2']['visible'] = true;
+    $scope.view.wdg['3DImage-3']['visible'] = true;
     $scope.view.wdg['3DImage-4']['visible'] = true;
   }
 }

@@ -974,7 +974,19 @@
                   "name": "twx-overlay-container",
                   "children": [
                     {
-                      "name": "twx-container-content"
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "button-1",
+                            "widget-name": "button-1",
+                            "click-expression": "arcFlash();",
+                            "text": "Arc Flash"
+                          },
+                          "name": "twx-button"
+                        }
+                      ]
                     }
                   ]
                 }
