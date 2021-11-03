@@ -48,16 +48,14 @@
                   "attributes": {
                     "twx-widget": "",
                     "widget-id": "modelTarget-1",
-                    "detection-position": "{\"globalPosition\":{\"x\":0,\"y\":0,\"z\":0},\"axisAngle\":{\"x\":0,\"y\":0,\"z\":0,\"w\":0}}",
+                    "detection-position": "{\"globalPosition\":{\"x\":-0.5081419358631041,\"y\":0.8526569346790058,\"z\":3.153620872539117},\"axisAngle\":{\"x\":0.999999999994607,\"y\":-0.00016949082225443444,\"z\":0.019380822224846432,\"w\":3.1519539864502355},\"cameraLocation\":{\"position\":{\"x\":0.38603562116622925,\"y\":0.8852306604385376,\"z\":3.1619455814361572,\"valid\":true},\"orientation\":{\"x\":-0.5936186909675598,\"y\":-2.220641613006592,\"z\":-0.00791708379983902},\"scale\":{\"x\":1,\"y\":1,\"z\":1},\"valid\":true},\"modelScale\":1,\"origModelSize\":{\"x\":1.1430000066757202,\"y\":1.9595084190368652,\"z\":0.7620000243186951}}",
                     "target-id": "5fab8515-c393-45d2-8f22-178bfaa1dc55",
                     "widget-name": "modelTarget-1",
-                    "url": "",
-                    "x": "-0.0000",
-                    "y": "-0.0000",
-                    "z": "0.0090",
-                    "rx": "-90.00",
-                    "ry": "0.00",
-                    "rz": "0.00",
+                    "url": "_generated_/mtg/5fab8515-c393-45d2-8f22-178bfaa1dc55.png",
+                    "x": "-0.5081999897956848",
+                    "y": "0.1062999963760376",
+                    "z": "0.2721000015735626",
+                    "rx": "0",
                     "model": "model-1"
                   },
                   "name": "twx-dt-target-model"
@@ -196,6 +194,7 @@
                     "twx-widget": "",
                     "widget-id": "model-2",
                     "widget-name": "model-2",
+                    "playstopped-expression": "animationFinished();",
                     "is-widget-container": "true",
                     "src": "Uploaded/SequenceBucketReplacementAF_High.pvz",
                     "scale": "1.0000",
@@ -349,6 +348,195 @@
                             {
                               "name": "twx-container-content",
                               "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "popup-1",
+                                    "widget-name": "popup-1",
+                                    "is-widget-container": "true",
+                                    "class": "buttonPopup",
+                                    "width": "",
+                                    "height": "",
+                                    "centered": "false",
+                                    "visible": "true"
+                                  },
+                                  "name": "twx-popup",
+                                  "children": [
+                                    {
+                                      "name": "twx-container-content",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "twx-widget": "",
+                                            "widget-id": "gridLayout-3",
+                                            "widget-name": "gridLayout-3",
+                                            "is-widget-container": "true"
+                                          },
+                                          "name": "twx-gridlayout",
+                                          "children": [
+                                            {
+                                              "name": "twx-container-content",
+                                              "children": [
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "row-8",
+                                                    "widget-name": "row-8",
+                                                    "is-widget-container": "true"
+                                                  },
+                                                  "name": "twx-row",
+                                                  "children": [
+                                                    {
+                                                      "name": "twx-container-content",
+                                                      "children": [
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-12",
+                                                            "widget-name": "column-12",
+                                                            "is-widget-container": "true",
+                                                            "class": ""
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "toggleButton-3",
+                                                                    "background-color": "",
+                                                                    "background-color-pressed": "",
+                                                                    "widget-name": "toggleButton-3",
+                                                                    "pressed-expression": "showGauges();",
+                                                                    "unpressed-expression": "hideGauges();",
+                                                                    "class": "toggleButton",
+                                                                    "pressed": "true",
+                                                                    "notpressed": "false",
+                                                                    "src": "Uploaded/Btn_Selected_Gauge.png",
+                                                                    "srcnotpressed": "Uploaded/Btn_Unselected_Gauge.png",
+                                                                    "width": "",
+                                                                    "height": ""
+                                                                  },
+                                                                  "name": "twx-toggle-button"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "row-10",
+                                                    "widget-name": "row-10",
+                                                    "is-widget-container": "true"
+                                                  },
+                                                  "name": "twx-row",
+                                                  "children": [
+                                                    {
+                                                      "name": "twx-container-content",
+                                                      "children": [
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-14",
+                                                            "widget-name": "column-14",
+                                                            "is-widget-container": "true"
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "toggleButton-4",
+                                                                    "background-color": "",
+                                                                    "background-color-pressed": "",
+                                                                    "widget-name": "toggleButton-4",
+                                                                    "pressed-expression": "showArcFlash();",
+                                                                    "unpressed-expression": "hideArcFlash();",
+                                                                    "class": "toggleButton",
+                                                                    "pressed": "true",
+                                                                    "notpressed": "false",
+                                                                    "src": "Uploaded/Btn_Selected_ArcFlash.png",
+                                                                    "srcnotpressed": "Uploaded/Btn_Unelected_ArcFlash.png",
+                                                                    "width": "",
+                                                                    "height": ""
+                                                                  },
+                                                                  "name": "twx-toggle-button"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "attributes": {
+                                                    "twx-widget": "",
+                                                    "widget-id": "row-11",
+                                                    "widget-name": "row-11",
+                                                    "is-widget-container": "true"
+                                                  },
+                                                  "name": "twx-row",
+                                                  "children": [
+                                                    {
+                                                      "name": "twx-container-content",
+                                                      "children": [
+                                                        {
+                                                          "attributes": {
+                                                            "twx-widget": "",
+                                                            "widget-id": "column-15",
+                                                            "widget-name": "column-15",
+                                                            "is-widget-container": "true"
+                                                          },
+                                                          "name": "twx-col",
+                                                          "children": [
+                                                            {
+                                                              "name": "twx-container-content",
+                                                              "children": [
+                                                                {
+                                                                  "attributes": {
+                                                                    "twx-widget": "",
+                                                                    "widget-id": "toggleButton-5",
+                                                                    "background-color": "",
+                                                                    "background-color-pressed": "",
+                                                                    "widget-name": "toggleButton-5",
+                                                                    "pressed-expression": "animation();",
+                                                                    "unpressed-expression": "animationStop();",
+                                                                    "class": "toggleButton",
+                                                                    "src": "Uploaded/Btn_Selected_Bucket.png",
+                                                                    "srcnotpressed": "Uploaded/Btn_Unselected_Bucket.png",
+                                                                    "width": "",
+                                                                    "height": ""
+                                                                  },
+                                                                  "name": "twx-toggle-button"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
                                 {
                                   "attributes": {
                                     "twx-widget": "",
@@ -981,22 +1169,32 @@
                         {
                           "attributes": {
                             "twx-widget": "",
-                            "widget-id": "button-1",
-                            "widget-name": "button-1",
-                            "click-expression": "arcFlash();",
-                            "text": "Arc Flash"
+                            "widget-id": "gridLayout-4",
+                            "widget-name": "gridLayout-4",
+                            "is-widget-container": "true"
                           },
-                          "name": "twx-button"
-                        },
-                        {
-                          "attributes": {
-                            "twx-widget": "",
-                            "widget-id": "button-2",
-                            "widget-name": "button-2",
-                            "click-expression": "animation();",
-                            "text": "Bucket Removal"
-                          },
-                          "name": "twx-button"
+                          "name": "twx-gridlayout",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "row-9",
+                                    "widget-name": "row-9",
+                                    "is-widget-container": "true"
+                                  },
+                                  "name": "twx-row",
+                                  "children": [
+                                    {
+                                      "name": "twx-container-content"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }

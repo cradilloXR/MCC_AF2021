@@ -118,6 +118,26 @@ $RA_ERROR: #df3704;
 }
 
 /*******************Buttons******************************/
+
+.buttonPopup {
+	background-color: transparent;
+  	fill: transparent;
+}
+
+.toggleButton {
+  	background-color: transparent;
+  	fill: transparent;
+  	margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65%;
+    width: 70px;
+    height: 70px;
+    opacity: 1 !important;
+    border-radius: 0px;
+}
+
+
 .whiteOutline {
     background-color: transparent;
     border-color: $RA_WHITE;
