@@ -10,7 +10,11 @@ $scope.show1 = function() {
     $scope.view.wdg['imageButtonStatus']['imgsrc'] = 'app/resources/Uploaded/green_dot.svg';
     $scope.view.wdg['label-1']['text']= 'MCC_1A';
 	$scope.view.wdg['label-2']['text']= 'Feeder Circuit Breaker';
-  	$scope.view.wdg['labelFaultValue']['text']= 'No Fault';
+	$scope.view.wdg['labelFaultValue']['text']= 'No Fault';
+  	$scope.view.wdg['hyperlinkManual']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/um/193-um015_-en-p.pdf';
+  	$scope.view.wdg['hyperlinkFaultCodes']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/um/193-um015_-en-p.pdf#page=209';
+  	$scope.view.wdg['hyperlinkSchematic']['url'] = 'https://rockwellautomation.sharepoint.com/:b:/s/MCCAF/EUKItwXfksdPg5pCEsy2oPQBYxUaVlF7inxZMdS_TSZFFw?e=0ARS97';
+  
 
     voltageMin = 480;
     voltageMax = 485;
@@ -25,7 +29,10 @@ $scope.show3 = function() {
     $scope.view.wdg['imageButtonStatus']['imgsrc'] = 'app/resources/Uploaded/yellow_dot.svg';
   	$scope.view.wdg['label-1']['text']= 'MCC_1E';
   	$scope.view.wdg['label-2']['text']= 'PowerFlex 753';
-	$scope.view.wdg['labelFaultValue']['text']= 'Overtemp Condition Imminent';
+	$scope.view.wdg['labelFaultValue']['text']= 'Overtemp Condition Imminent'; 
+    $scope.view.wdg['hyperlinkManual']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/750-pm001_-en-p.pdf';
+  	$scope.view.wdg['hyperlinkFaultCodes']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/750-pm001_-en-p.pdf#page=311';
+  	$scope.view.wdg['hyperlinkSchematic']['url'] = 'https://rockwellautomation.sharepoint.com/:b:/s/MCCAF/ETfrjyON2hpLsyyzV0wXAF0BMpD3RwLrxYa21QV95oSlDw?e=U4GsUC';
   
     voltageMin = 480;
     voltageMax = 485;
@@ -41,6 +48,9 @@ $scope.show4 = function() {
   	$scope.view.wdg['label-1']['text']= 'MCC_2A';
   	$scope.view.wdg['label-2']['text']= 'PowerFlex 525';
 	$scope.view.wdg['labelFaultValue']['text']= 'No Fault';
+  	$scope.view.wdg['hyperlinkManual']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf';	
+  	$scope.view.wdg['hyperlinkFaultCodes']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf#page=157';
+  	$scope.view.wdg['hyperlinkSchematic']['url'] = 'https://rockwellautomation.sharepoint.com/:b:/s/MCCAF/EXXJB6pasNdEo8fTipifAXwB7e4hycHqXAywsyaPztXKiQ?e=Sho6An';
   
     voltageMin = 480;
     voltageMax = 485;
@@ -56,6 +66,9 @@ $scope.show5 = function() {
   	$scope.view.wdg['label-1']['text']= 'MCC_2E';
   	$scope.view.wdg['label-2']['text']= 'PowerFlex 755';
 	$scope.view.wdg['labelFaultValue']['text']= 'F004 Under Voltage';
+  	$scope.view.wdg['hyperlinkManual']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/750-pm001_-en-p.pdf';
+	$scope.view.wdg['hyperlinkFaultCodes']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/750-pm001_-en-p.pdf#page=311';
+  	$scope.view.wdg['hyperlinkSchematic']['url'] = 'https://rockwellautomation.sharepoint.com/:b:/s/MCCAF/ETfrjyON2hpLsyyzV0wXAF0BMpD3RwLrxYa21QV95oSlDw?e=U4GsUC';
   
     voltageMin = 200
     voltageMax = 225

@@ -30,12 +30,13 @@
                     "is-widget-container": "true",
                     "src": "Uploaded/AFMCC10004915095_High.pvz",
                     "scale": "1.0000",
-                    "x": "-0.5082",
-                    "y": "0.1063",
+                    "x": "-0.5054",
+                    "y": "0.1047",
                     "z": "0.2721",
                     "rx": "0.00",
                     "ry": "0.00",
-                    "rz": "0.00"
+                    "rz": "0.18",
+                    "visible": "false"
                   },
                   "name": "twx-dt-model",
                   "children": [
@@ -48,14 +49,18 @@
                   "attributes": {
                     "twx-widget": "",
                     "widget-id": "modelTarget-1",
-                    "detection-position": "{\"globalPosition\":{\"x\":-0.5081419358631041,\"y\":0.8526569346790058,\"z\":3.153620872539117},\"axisAngle\":{\"x\":0.999999999994607,\"y\":-0.00016949082225443444,\"z\":0.019380822224846432,\"w\":3.1519539864502355},\"cameraLocation\":{\"position\":{\"x\":0.38603562116622925,\"y\":0.8852306604385376,\"z\":3.1619455814361572,\"valid\":true},\"orientation\":{\"x\":-0.5936186909675598,\"y\":-2.220641613006592,\"z\":-0.00791708379983902},\"scale\":{\"x\":1,\"y\":1,\"z\":1},\"valid\":true},\"modelScale\":1,\"origModelSize\":{\"x\":1.1430000066757202,\"y\":1.9595084190368652,\"z\":0.7620000243186951}}",
+                    "detection-position": "{\"globalPosition\":{\"x\":-0.5082897628079476,\"y\":0.8610248723714898,\"z\":3.102446986515676},\"axisAngle\":{\"x\":0.9999999999998261,\"y\":-0.0006679204473682687,\"z\":-0.0008830521415839466,\"w\":3.0815619438466526},\"cameraLocation\":{\"position\":{\"x\":0.5148332715034485,\"y\":0.6726878881454468,\"z\":3.147592306137085,\"valid\":true},\"orientation\":{\"x\":3.4394421577453613,\"y\":0.10339505225419998,\"z\":-0.07343371957540512},\"scale\":{\"x\":1,\"y\":1,\"z\":1},\"valid\":true},\"modelScale\":1,\"origModelSize\":{\"x\":1.1430000066757202,\"y\":1.9595084190368652,\"z\":0.7620000243186951}}",
+                    "car-mode-str": "On",
+                    "static-mode-str": "On",
                     "target-id": "5fab8515-c393-45d2-8f22-178bfaa1dc55",
                     "widget-name": "modelTarget-1",
                     "url": "_generated_/mtg/5fab8515-c393-45d2-8f22-178bfaa1dc55.png",
-                    "x": "-0.5081999897956848",
-                    "y": "0.1062999963760376",
-                    "z": "0.2721000015735626",
-                    "rx": "0",
+                    "x": "-0.0000",
+                    "y": "-0.0019",
+                    "z": "0.0090",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
                     "model": "model-1"
                   },
                   "name": "twx-dt-target-model"
@@ -204,6 +209,7 @@
                     "rx": "0.00",
                     "ry": "0.00",
                     "rz": "0.00",
+                    "occlude": "true",
                     "sequence": "Uploaded/l-Creo 3D - Figure 1.pvi"
                   },
                   "name": "twx-dt-model",
@@ -994,7 +1000,7 @@
                                                                     "widget-id": "hyperlinkFaultCodes",
                                                                     "widget-name": "hyperlinkFaultCodes",
                                                                     "text": "Alarms Document",
-                                                                    "url": "https://",
+                                                                    "url": "",
                                                                     "margin": "10px 10px 10px 10px"
                                                                   },
                                                                   "name": "twx-hyperlink"
@@ -1045,10 +1051,13 @@
                                                                     "background-color-pressed": "transparent",
                                                                     "widget-name": "toggleLanguage",
                                                                     "click-expression": "app.UpdateLanguageSettings();",
+                                                                    "pressed-expression": "toSpanish();",
+                                                                    "unpressed-expression": "toEnglish();",
                                                                     "src": "Uploaded/american_english.png",
                                                                     "srcnotpressed": "Uploaded/spanish.png",
                                                                     "width": "",
-                                                                    "height": "36px"
+                                                                    "height": "36px",
+                                                                    "visible": "false"
                                                                   },
                                                                   "name": "twx-toggle-button"
                                                                 },
@@ -1058,7 +1067,7 @@
                                                                     "widget-id": "hyperlinkManual",
                                                                     "widget-name": "hyperlinkManual",
                                                                     "text": "Manual",
-                                                                    "url": "https://"
+                                                                    "url": ""
                                                                   },
                                                                   "name": "twx-hyperlink"
                                                                 },
@@ -1067,7 +1076,8 @@
                                                                     "twx-widget": "",
                                                                     "widget-id": "hyperlinkSchematic",
                                                                     "widget-name": "hyperlinkSchematic",
-                                                                    "text": "Schematic Document"
+                                                                    "text": "Schematic Document",
+                                                                    "url": ""
                                                                   },
                                                                   "name": "twx-hyperlink"
                                                                 }
