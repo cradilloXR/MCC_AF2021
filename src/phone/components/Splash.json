@@ -147,32 +147,7 @@
                                     "text": "MCC Van",
                                     "class": "a-type__button .a-button whiteOutline"
                                   },
-                                  "name": "twx-button",
-                                  "children": [
-                                    {
-                                      "attributes": {
-                                        "eventbind-id": "eb-1609873480951",
-                                        "source-type": "widget",
-                                        "source-label": "Button",
-                                        "source-name": "button-1",
-                                        "source-event": "click",
-                                        "handler-namespace": "app",
-                                        "handler-name": "fn",
-                                        "handler-service": "navigate",
-                                        "handler-path": "app-fn-navigate"
-                                      },
-                                      "name": "twx-eventbind",
-                                      "children": [
-                                        {
-                                          "attributes": {
-                                            "name": "viewname",
-                                            "value": "Layout_Popups"
-                                          },
-                                          "name": "twx-event-data"
-                                        }
-                                      ]
-                                    }
-                                  ]
+                                  "name": "twx-button"
                                 }
                               ]
                             }
@@ -199,32 +174,7 @@
                                     "text": "MCC100061AF",
                                     "class": "a-type__button .a-button whiteOutline"
                                   },
-                                  "name": "twx-button",
-                                  "children": [
-                                    {
-                                      "attributes": {
-                                        "eventbind-id": "eb-1609873486418",
-                                        "source-type": "widget",
-                                        "source-label": "Button",
-                                        "source-name": "button-2",
-                                        "source-event": "click",
-                                        "handler-namespace": "app",
-                                        "handler-name": "fn",
-                                        "handler-service": "navigate",
-                                        "handler-path": "app-fn-navigate"
-                                      },
-                                      "name": "twx-eventbind",
-                                      "children": [
-                                        {
-                                          "attributes": {
-                                            "name": "viewname",
-                                            "value": "Layout_BottomControls"
-                                          },
-                                          "name": "twx-event-data"
-                                        }
-                                      ]
-                                    }
-                                  ]
+                                  "name": "twx-button"
                                 }
                               ]
                             }
