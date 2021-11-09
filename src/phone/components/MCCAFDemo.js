@@ -5,85 +5,132 @@ var voltageMax = 485;
 var frequencyMin = 70;
 var frequencyMax = 75;
 
-//1
-$scope.show1 = function() {
-    $scope.view.wdg['imageButtonStatus']['imgsrc'] = 'app/resources/Uploaded/green_dot.svg';
-    $scope.view.wdg['label-1']['text']= 'MCC_1A';
-	$scope.view.wdg['label-2']['text']= 'Feeder Circuit Breaker';
+//1A - Main Circuit Breaker
+$scope.show1A = function() {
+	$scope.view.wdg['imageButtonStatus']['imgsrc'] = 'app/resources/Uploaded/green_dot.svg';
+	$scope.view.wdg['label-1']['text']= 'MCC_1A';
+	$scope.view.wdg['label-2']['text']= 'Main Circuit Breaker';
+	$scope.view.wdg['labelFault']['text']= 'Fault Code:';
 	$scope.view.wdg['labelFaultValue']['text']= 'No Fault';
-  	$scope.view.wdg['hyperlinkManual']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/um/193-um015_-en-p.pdf';
-  	$scope.view.wdg['hyperlinkFaultCodes']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/um/193-um015_-en-p.pdf#page=209';
-  	$scope.view.wdg['hyperlinkSchematic']['url'] = 'https://rockwellautomation.sharepoint.com/:b:/s/MCCAF/EUKItwXfksdPg5pCEsy2oPQBYxUaVlF7inxZMdS_TSZFFw?e=0ARS97';
-  
-
-    voltageMin = 480;
+	$scope.view.wdg['hyperlinkManual']['visible'] = false;
+	$scope.view.wdg['hyperlinkManual']['url'] = '';
+	$scope.view.wdg['hyperlinkFaultCodes']['visible'] = false;
+	$scope.view.wdg['hyperlinkFaultCodes']['url'] = '';
+	$scope.view.wdg['hyperlinkSchematic']['visible'] = false;
+	$scope.view.wdg['hyperlinkSchematic']['url'] = '';
+	
+	voltageMin = 480;
     voltageMax = 485;
+	currentMin = 10;
+	CurrentMax = 14;
     frequencyMin = 60;
 	frequencyMax = 60;
   
   	$scope.app.fn.triggerWidgetService('unitInfoPopup','showpopup')
 }
 
-//3
-$scope.show3 = function() {
-    $scope.view.wdg['imageButtonStatus']['imgsrc'] = 'app/resources/Uploaded/yellow_dot.svg';
-  	$scope.view.wdg['label-1']['text']= 'MCC_1E';
-  	$scope.view.wdg['label-2']['text']= 'PowerFlex 753';
-	$scope.view.wdg['labelFaultValue']['text']= 'Overtemp Condition Imminent'; 
-    $scope.view.wdg['hyperlinkManual']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/750-pm001_-en-p.pdf';
-  	$scope.view.wdg['hyperlinkFaultCodes']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/750-pm001_-en-p.pdf#page=311';
-  	$scope.view.wdg['hyperlinkSchematic']['url'] = 'https://rockwellautomation.sharepoint.com/:b:/s/MCCAF/ETfrjyON2hpLsyyzV0wXAF0BMpD3RwLrxYa21QV95oSlDw?e=U4GsUC';
-  
-    voltageMin = 480;
-    voltageMax = 485;
-    frequencyMin = 70;
-    frequencyMax = 75;
-  
-  	$scope.app.fn.triggerWidgetService('unitInfoPopup','showpopup')
-}
-
-//4
-$scope.show4 = function() {
-    $scope.view.wdg['imageButtonStatus']['imgsrc'] = 'app/resources/Uploaded/green_dot.svg';
-  	$scope.view.wdg['label-1']['text']= 'MCC_2A';
-  	$scope.view.wdg['label-2']['text']= 'PowerFlex 525';
+//1E - Power Monitor 5000
+$scope.show1E = function() {
+	$scope.view.wdg['imageButtonStatus']['imgsrc'] = 'app/resources/Uploaded/green_dot.svg';
+	$scope.view.wdg['label-1']['text']= 'MCC_1E';
+	$scope.view.wdg['label-2']['text']= 'Power Monitor 5000';
+	$scope.view.wdg['labelFault']['text']= 'Fault Code:';
 	$scope.view.wdg['labelFaultValue']['text']= 'No Fault';
-  	$scope.view.wdg['hyperlinkManual']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf';	
-  	$scope.view.wdg['hyperlinkFaultCodes']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf#page=157';
-  	$scope.view.wdg['hyperlinkSchematic']['url'] = 'https://rockwellautomation.sharepoint.com/:b:/s/MCCAF/EXXJB6pasNdEo8fTipifAXwB7e4hycHqXAywsyaPztXKiQ?e=Sho6An';
-  
-    voltageMin = 480;
+	$scope.view.wdg['hyperlinkManual']['visible'] = false;
+	$scope.view.wdg['hyperlinkManual']['url'] = '';
+	$scope.view.wdg['hyperlinkFaultCodes']['visible'] = false;
+	$scope.view.wdg['hyperlinkFaultCodes']['url'] = '';
+	$scope.view.wdg['hyperlinkSchematic']['visible'] = false;
+	$scope.view.wdg['hyperlinkSchematic']['url'] = '';
+	
+	voltageMin = 480;
     voltageMax = 485;
-    frequencyMin = 70;
-    frequencyMax = 75;
+	currentMin = 11;
+	CurrentMax = 13;
+    frequencyMin = 60;
+	frequencyMax = 60;
   
   	$scope.app.fn.triggerWidgetService('unitInfoPopup','showpopup')
 }
 
-//5
-$scope.show5 = function() {
-    $scope.view.wdg['imageButtonStatus']['imgsrc'] = 'app/resources/Uploaded/red_dot.svg';
-  	$scope.view.wdg['label-1']['text']= 'MCC_2E';
-  	$scope.view.wdg['label-2']['text']= 'PowerFlex 755';
+//2A - PowerFlex 525
+$scope.show2A = function() {
+	$scope.view.wdg['imageButtonStatus']['imgsrc'] = 'app/resources/Uploaded/red_dot.svg';
+	$scope.view.wdg['label-1']['text']= 'MCC_2A';
+	$scope.view.wdg['label-2']['text']= 'PowerFlex 525';
+	$scope.view.wdg['labelFault']['text']= 'Fault Code:';
 	$scope.view.wdg['labelFaultValue']['text']= 'F004 Under Voltage';
-  	$scope.view.wdg['hyperlinkManual']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/750-pm001_-en-p.pdf';
-	$scope.view.wdg['hyperlinkFaultCodes']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/pm/750-pm001_-en-p.pdf#page=311';
-  	$scope.view.wdg['hyperlinkSchematic']['url'] = 'https://rockwellautomation.sharepoint.com/:b:/s/MCCAF/ETfrjyON2hpLsyyzV0wXAF0BMpD3RwLrxYa21QV95oSlDw?e=U4GsUC';
+	$scope.view.wdg['hyperlinkManual']['visible'] = true;
+	$scope.view.wdg['hyperlinkManual']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf';	
+	$scope.view.wdg['hyperlinkFaultCodes']['visible'] = true;
+	$scope.view.wdg['hyperlinkFaultCodes']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf#page=157';
+	$scope.view.wdg['hyperlinkSchematic']['visible'] = true;
+	$scope.view.wdg['hyperlinkSchematic']['url'] = 'https://rockwellautomation.sharepoint.com/:b:/s/MCCAF/EXXJB6pasNdEo8fTipifAXwB7e4hycHqXAywsyaPztXKiQ?e=Sho6An';
+	
+	voltageMin = 200;
+    voltageMax = 225;
+	currentMin = 0;
+	CurrentMax = 0;
+    frequencyMin = 0;
+	frequencyMax = 0;
   
-    voltageMin = 200
-    voltageMax = 225
-    frequencyMin = 70;
-    frequencyMax = 75;
+  	$scope.app.fn.triggerWidgetService('unitInfoPopup','showpopup')
+}
+
+//2D - E300
+$scope.show2D = function() {
+	$scope.view.wdg['imageButtonStatus']['imgsrc'] = 'app/resources/Uploaded/yellow_dot.svg';
+	$scope.view.wdg['label-1']['text']= 'MCC_2D';
+	$scope.view.wdg['label-2']['text']= 'E300';
+	$scope.view.wdg['labelFault']['text']= 'Alarm Code:';
+	$scope.view.wdg['labelFaultValue']['text']= 'Overload Warning';
+	$scope.view.wdg['hyperlinkManual']['visible'] = true;
+	$scope.view.wdg['hyperlinkManual']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/um/193-um015_-en-p.pdf';
+	$scope.view.wdg['hyperlinkFaultCodes']['visible'] = true;
+	$scope.view.wdg['hyperlinkFaultCodes']['url'] = 'https://literature.rockwellautomation.com/idc/groups/literature/documents/um/520-um001_-en-e.pdf#page=157';
+	$scope.view.wdg['hyperlinkSchematic']['visible'] = true;
+	$scope.view.wdg['hyperlinkSchematic']['url'] = 'https://rockwellautomation.sharepoint.com/:b:/s/MCCAF/EUKItwXfksdPg5pCEsy2oPQBYxUaVlF7inxZMdS_TSZFFw?e=0ARS97';
+	
+	voltageMin = 480;
+    voltageMax = 485;
+	currentMin = 5.1;
+	CurrentMax = 7.2;
+    frequencyMin = 60;
+	frequencyMax = 60;
+  
+  	$scope.app.fn.triggerWidgetService('unitInfoPopup','showpopup')
+}
+
+//2H - E100
+$scope.show2H = function() {
+	$scope.view.wdg['imageButtonStatus']['imgsrc'] = 'app/resources/Uploaded/green_dot.svg';
+	$scope.view.wdg['label-1']['text']= 'MCC_2H';
+	$scope.view.wdg['label-2']['text']= 'E100';
+	$scope.view.wdg['labelFault']['text']= 'Fault Code:';
+	$scope.view.wdg['labelFaultValue']['text']= 'None';
+	$scope.view.wdg['hyperlinkManual']['visible'] = false;
+	$scope.view.wdg['hyperlinkManual']['url'] = '';
+	$scope.view.wdg['hyperlinkFaultCodes']['visible'] = false;
+	$scope.view.wdg['hyperlinkFaultCodes']['url'] = '';
+	$scope.view.wdg['hyperlinkSchematic']['visible'] = false;
+	$scope.view.wdg['hyperlinkSchematic']['url'] = '';
+	
+	voltageMin = 480;
+    voltageMax = 485;
+	currentMin = 2.8;
+	CurrentMax = 5.1;
+    frequencyMin = 60;
+	frequencyMax = 60;
   
   	$scope.app.fn.triggerWidgetService('unitInfoPopup','showpopup')
 }
 
 //Flash icons that are faulted
 $interval(function() {
-	if ($scope.view.wdg['3DGauge-3'].opacity == 1) {
-        $scope.view.wdg['3DGauge-3'].opacity = 0.25;
+	if ($scope.view.wdg['3DGauge-4'].opacity == 1) {
+        $scope.view.wdg['3DGauge-4'].opacity = 0.25;
     } else {
-      	$scope.view.wdg['3DGauge-3'].opacity = 1;
+      	$scope.view.wdg['3DGauge-4'].opacity = 1;
     }
 },500);
 $interval(function() {
