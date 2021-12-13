@@ -66,6 +66,16 @@
         "value": ""
       },
       "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "Power",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "Power",
+        "value": ""
+      },
+      "name": "twx-app-param"
     }
   ],
   "name": "twx-app-mdl"
