@@ -328,3 +328,26 @@
 [2021-10-28T15:46:17.192Z] debug: [twx-studio:upgrade:MCC_AF2021] buildApp
 [2021-10-28T15:46:17.853Z] debug: [twx-studio:upgrade:MCC_AF2021] END buildApp
 [2021-10-28T15:46:17.853Z] debug: [twx-studio:upgrade:MCC_AF2021] Build succeeded.
+
+2021-11-09T18:45:32.993Z: Project "MCC_AF2021" saved as new project "MCC_AF2021-v2"[2021-11-09T19:46:57.387Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] Begin upgrade of project
+[2021-11-09T19:46:57.388Z] info: [twx-studio:upgrade:MCC_AF2021-v2] Upgrading project
+[2021-11-09T19:46:57.420Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] Make sure there are not any stale files lying around
+[2021-11-09T19:46:57.420Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] Removing 
+[2021-11-09T19:46:57.434Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] Create .gitignore for project dir
+[2021-11-09T19:46:57.435Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] Copying /src/**/* to project, overwrite=false
+[2021-11-09T19:46:57.441Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2021-11-09T19:46:57.495Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] Copy of project files complete
+[2021-11-09T19:46:57.495Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] Updating version to 
+[2021-11-09T19:46:57.495Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] onupgrade sucessful, now build the project
+[2021-11-09T19:46:57.496Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] BEGIN buildApp
+[2021-11-09T19:46:57.496Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] write settings
+[2021-11-09T19:46:57.496Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] copy runtime extensions
+[2021-11-09T19:46:59.576Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] packageThemeSet
+[2021-11-09T19:47:00.168Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] onBuild
+[2021-11-09T19:47:00.168Z] info: [twx-studio:upgrade:MCC_AF2021-v2] Building ves-ar-extension app:
+[2021-11-09T19:47:00.187Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] pathDir
+[2021-11-09T19:47:00.187Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] scaffoldDir
+[2021-11-09T19:47:00.187Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] copySrc
+[2021-11-09T19:47:00.372Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] buildApp
+[2021-11-09T19:47:00.766Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] END buildApp
+[2021-11-09T19:47:00.766Z] debug: [twx-studio:upgrade:MCC_AF2021-v2] Build succeeded.

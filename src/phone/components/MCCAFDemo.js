@@ -149,7 +149,7 @@ $interval(function() {
 	$scope.view.wdg['gauge-2']['value'] = Math.floor(Math.random() * (voltageMax - voltageMin) ) + voltageMin;
 },1000);
 $interval(function() {
-  	$scope.view.wdg['gauge-3']['value'] = ($scope.view.wdg['gauge-1']['value'] * $scope.view.wdg['gauge-2']['value']) / 1000;
+  	$scope.app.params['Power'] = ($scope.view.wdg['gauge-1']['value'] * $scope.view.wdg['gauge-2']['value']) / 1000;
 },1000);
 $interval(function() {
   	$scope.view.wdg['gauge-4']['value'] = Math.floor(Math.random() * (frequencyMax - frequencyMin) ) + frequencyMin;
@@ -162,6 +162,7 @@ $scope.hideGauges = function() {
     $scope.view.wdg['3DGauge-3']['visible'] = false;
     $scope.view.wdg['3DGauge-4']['visible'] = false;
     $scope.view.wdg['3DGauge-5']['visible'] = false;
+  	$scope.view.wdg['3DGauge-6']['visible'] = false;
 }
 $scope.showGauges = function() {
  	$scope.view.wdg['3DGauge-1']['visible'] = true;
@@ -169,6 +170,7 @@ $scope.showGauges = function() {
     $scope.view.wdg['3DGauge-3']['visible'] = true;
     $scope.view.wdg['3DGauge-4']['visible'] = true;
     $scope.view.wdg['3DGauge-5']['visible'] = true;
+  	$scope.view.wdg['3DGauge-6']['visible'] = true;
 }
 
 
@@ -207,4 +209,14 @@ $scope.animationStop = function () {
 	$scope.app.fn.triggerWidgetService('model-2','stop')
   	$scope.app.fn.triggerWidgetService('model-2','reset')
   	$scope.animationFinished();
+}
+
+$scope.bucketRemoval = function() {
+  	$scope.hideGauges();
+  	$scope.view.wdg['toggleButton-3']['pressed'] = false;
+  	$scope.view.wdg['toggleButton-3']['disabled'] = true;
+  	$scope.hideArcFlash();
+  	$scope.view.wdg['toggleButton-4']['pressed'] = false;
+  	$scope.view.wdg['toggleButton-4']['disabled'] = true;
+	$scope.app.fn.triggerWidgetService('model-2','playAll') 
 }

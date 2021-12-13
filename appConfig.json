@@ -24,6 +24,13 @@
           "showInMainMenu": true,
           "viewType": "ar",
           "title": "MCCAFDemo"
+        },
+        {
+          "name": "BucketReplacement",
+          "fileName": "BucketReplacement",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "BucketReplacement"
         }
       ],
       "images": []
@@ -57,5 +64,7 @@
   "fontRuntimeDir": "../fonts",
   "fontDesigntimeDir": "../dist/fonts",
   "theme": "twx-light",
-  "version": "1.55.2075"
+  "version": "1.55.2075",
+  "designedForOffline": true,
+  "thumbnail": "Uploaded/LVMCC.jpg"
 }
