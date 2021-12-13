@@ -161,9 +161,9 @@
                     "x": "-0.3854",
                     "y": "1.7700",
                     "z": "1.8275",
-                    "rx": "180.00",
+                    "rx": "-180.00",
                     "ry": "-38.84",
-                    "rz": "180.00",
+                    "rz": "-180.00",
                     "occlude": "true",
                     "sequence": "Uploaded/l-Creo 3D - Figure 1.pvi"
                   },
@@ -302,7 +302,9 @@
                     "dataset": "Uploaded/mccscan2.dat",
                     "src": "Uploaded/mccscan2_authoring.glb",
                     "occluder": "Uploaded/mccscan2_navmesh.glb",
-                    "y": "1.459999918937683",
+                    "x": "0.0000",
+                    "y": "1.4600",
+                    "z": "0.0000",
                     "rx": "0.00",
                     "ry": "0.00",
                     "rz": "0.00"
